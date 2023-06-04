@@ -3,7 +3,7 @@ import React from 'react'
 const Comment = () => {
   return (
     <section>
-                <div class="flex flex-wrap -m-2">
+    <div class="flex flex-wrap -m-2">
       <div class="p-2 w-full">
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <div class="flex-grow">
