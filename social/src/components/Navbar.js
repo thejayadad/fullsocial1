@@ -24,17 +24,37 @@ const Navbar = () => {
           href={"/"}>Contact</Link>
         </nav>
         {user ? (
-          <button
+          <>
+          <Link
+          
+          href={"/create-post"}
+            className="inline-flex text-black items-center bg-[#fff] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+          >
+            Create Post
+          </Link>
+          <Link
+          
+          href={"/"}
             className="inline-flex text-black items-center bg-[#fff] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
           >
             Logout
-          </button>
+          </Link>
+          </>
         ) : (
-          <button
+          <>
+          <Link
+          href={"/login"}
             className="inline-flex text-black items-center bg-[#fff] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
           >
             Login
-          </button>
+          </Link>
+          <Link
+          href={"/register"}
+            className="inline-flex text-black items-center bg-[#fff] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+          >
+            Register
+          </Link>
+          </>
         )}
     </div>
     </header>
