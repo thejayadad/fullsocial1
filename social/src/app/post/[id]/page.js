@@ -1,3 +1,4 @@
+import Comment from '@/components/Comment'
 import React from 'react'
 import { AiFillDelete, AiFillLike, AiOutlineLike } from 'react-icons/ai'
 import { BsFillPencilFill } from 'react-icons/bs'
@@ -43,8 +44,10 @@ const PostDetail = () => {
             </div>
           </div>
         </div>
+        <h2 className='text-center p-8'>Comment Section</h2>
 
-
+      <Comment />
+   
    </section>
   )
 }
