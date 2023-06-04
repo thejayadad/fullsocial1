@@ -5,7 +5,7 @@ import { BsFillPencilFill } from 'react-icons/bs'
 
 const PostDetail = () => {
   return (
-   <section className='flex-col'>
+   <section className='flex-col mt-8'>
     <h1 class="title-font text-center text-lg font-medium text-gray-900 mb-1">Post Title</h1>
     <h2 class="tracking-widest text-center text-xs title-font font-medium text-gray-400 mb-1">Date</h2>
     <h2 class="tracking-widest text-center text-xs title-font font-medium text-gray-900  mb-1">By Dunbar</h2>
