@@ -1,12 +1,9 @@
 import React from 'react'
-import { AiOutlineFileImage } from 'react-icons/ai'
 
-
-
-const CreatePost = () => {
+const EditPage = () => {
   return (
-   <section className='h-screen p-4'>
-    <h2 className='text-center mb-4'>Create Post</h2>
+    <section className='h-screen p-4'>
+    <h2 className='text-center mb-4'>Edit Post</h2>
     <form className='flex flex-col'> 
       <input placeholder='title' type="text" id="title" name="title" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out mb-4" />
         <textarea placeholder='Description'  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out mb-4"></textarea>
@@ -24,4 +21,4 @@ const CreatePost = () => {
   )
 }
 
-export default CreatePost
+export default EditPage

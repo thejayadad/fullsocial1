@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
+import Footer from '@/components/Footer'
 
 
 export const metadata = {
@@ -10,11 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+  <body>
         <Navbar />
        <main className='m-auto max-w-screen-md'>
        {children}
        </main>
+       <Footer />
       </body>
     </html>
   )

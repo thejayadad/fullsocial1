@@ -8,11 +8,11 @@ const Post = () => {
     <div class="flex flex-wrap -m-4">
       <div class="p-4">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog" />
+          <img class="lg:h-screen w-full object-cover object-center" src="https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="blog" />
           <div class="p-6">
-            <div className='flex justify-between'>
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 mr-4">CATEGORY</h2>
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 mr-4">By Dunbar</h2>
+            <div className='flex justify-between align-center '>
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 ">CATEGORY</h2>
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">By Dunbar</h2>
             </div>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-1">The Catalyzer</h1>
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 mr-4">Date</h2>

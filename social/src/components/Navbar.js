@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const Navbar = () => {
-    const user = true
+    const user = false
   return (
     <header className="body-font text-black">
     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
