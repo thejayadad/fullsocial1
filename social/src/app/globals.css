@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400&family=Fauna+One&display=swap");
 
 
 body{
   overflow-x: hidden;
-  font-family: monospace;
+  font-family: "Cinzel";
 }
